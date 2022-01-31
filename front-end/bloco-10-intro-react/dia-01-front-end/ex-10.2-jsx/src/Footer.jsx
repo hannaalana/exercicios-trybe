@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+
+class Footer extends Component{
+    render(){
+        const conteudos = (
+            <h1 className='footer'>E isso é só o começo...</h1>
+        )
+
+
+        return (
+            <footer>
+            {conteudos}
+            </footer>      
+        );
+    }
+}
+
+export default Footer;
